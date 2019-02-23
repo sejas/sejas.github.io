@@ -60,7 +60,7 @@ const Footer = styled.footer`
 const Index = () => (
   <>
     <Layout />
-    <Parallax pages={2}>
+    <Parallax pages={3}>
       <Hero offset={0}>
         <BigTitle>
           Hi!, <br /> I'm Antonio Sejas.
@@ -68,17 +68,17 @@ const Index = () => (
         <Subtitle>I help startups to develop their digital products from scratch.</Subtitle>
         <Subtitle>Mobile &amp; Web Apps.</Subtitle>
       </Hero>
-      {/*
-      <Projects offset={1}>
+      <About offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="QTranslate X Extractor Online"
+            link="/qtranslatex-online/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            Online Tool that translates QTranslate X content. I developed to migrate a Woocommerce website.
           </ProjectCard>
+          {/*
           <ProjectCard
             title="Harry Potter"
             link="https://www.behance.net/gallery/52915793/Harry-Potter"
@@ -100,8 +100,10 @@ const Index = () => (
           >
             A fantasy image manipulation relocating the habitat of wild animals.
           </ProjectCard>
+       */}
         </ProjectsWrapper>
-      </Projects>
+      </About>
+      {/*
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
@@ -120,7 +122,7 @@ const Index = () => (
         </AboutDesc>
       </About>
        */}
-      <Contact offset={1}>
+      <Contact offset={2}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
