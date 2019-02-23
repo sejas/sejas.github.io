@@ -125,8 +125,8 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:github@sejas.es">Hi</a> or find me on other platforms:{' '}
-            <a href="https://sejas.es">Github</a> &amp;
-            <a href="https://medium.com/@sejas">Medium</a>
+            <a href="https://sejas.es">Github</a> {'&amp; '}
+            <a href="https://medium.com/@sejas"> Medium</a>
           </ContactText>
         </Inner>
         <Footer> &copy; 2019 Made with ♥️ and React in Gran Canaria</Footer>
